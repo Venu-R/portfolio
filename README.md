@@ -1,21 +1,80 @@
-# Portfolio (React + Tailwind + Node/Express)
+# Portfolio
 
-One Express service serves the API and the built React site. No database is needed.
+Personal portfolio website showcasing my projects, skills, education, and experience.
 
-## Updating the site after deployment
-- Text, projects, skills, links, education: edit `server/data/content.json`.
-- Resume: replace `server/public/resume.pdf` (keep the filename).
-- Commit and push. The host redeploys automatically and the changes go live.
-- Add experience later by filling `"experience"`, e.g. `{ "role": "Intern", "company": "X", "period": "Jun 2027 to Aug 2027", "points": ["..."] }`. The Experience section appears automatically once it has an entry.
+Built with **React, Tailwind CSS, Node.js, and Express.js**.
 
-## Run locally
+## Live Website
+
+https://venu-r.onrender.com/
+
+## Tech Stack
+
+- React
+- Tailwind CSS
+- Node.js
+- Express.js
+- Vite
+
+## Project Structure
+
+```text
+portfolio/
+├── client/        # React + Tailwind frontend
+├── server/        # Express backend
+├── package.json   # Project scripts
+└── README.md
 ```
+
+The Express server serves the built React application and provides APIs for portfolio content and resume access. No database is required.
+
+## Run Locally
+
+```bash
 npm run build
-npm start          # http://localhost:5000
+npm start
 ```
-For live editing, run `npm run dev:server` and `npm run dev:client` in two terminals (client on http://localhost:5173).
 
-## Deploy (Render, Railway or similar)
-- Build command: `npm run build`
-- Start command: `npm start`
-- Node 18 or newer. No environment variables are required.
+The application will run at:
+
+```text
+http://localhost:5000
+```
+
+For development:
+
+```bash
+npm run dev:server
+npm run dev:client
+```
+
+The Vite development server runs on:
+
+```text
+http://localhost:5173
+```
+
+## Deployment
+
+The project is deployed on **Render** using:
+
+```text
+Build Command: npm run build
+Start Command: npm start
+```
+
+## Updating Content
+
+Most portfolio information can be updated from:
+
+```text
+server/data/content.json
+```
+
+The resume can be replaced at:
+
+```text
+server/public/resume.pdf
+```
+
+After committing and pushing changes, the deployed application can be rebuilt automatically by the hosting platform.
