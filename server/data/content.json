@@ -8,8 +8,8 @@
   "linkedin": "https://www.linkedin.com/in/venu-r-9a407826a",
   "availability": "Open to full-time roles and internships",
   "about": [
-    "I'm a final year Information Science Engineering student at Sir M. Visvesvaraya Institute of Technology, Bengaluru, with an interest in full-stack development, cybersecurity, and machine learning.",
-    "I enjoy building practical applications and working across different parts of a system, from frontend and backend development to databases and deployment. Through my academic and personal projects, I've gained hands-on experience with modern development tools and technologies, and I'm now looking to start my career in a software development role where I can contribute and continue learning."
+    "I'm a final year Information Science Engineering student at Sir M. Visvesvaraya Institute of Technology, Bengaluru, interested in full-stack development, AI/ML, and cybersecurity.",
+    "I enjoy building practical applications and working across the stack, from developing frontend and backend systems to working with databases and deployment. Through my academic and personal projects, I've gained hands-on experience building and integrating different technologies, and I'm looking to start my career in a software development role."
   ],
   "skills": [
     {
@@ -17,6 +17,7 @@
       "items": [
         "Java",
         "JavaScript",
+        "Python",
         "SQL"
       ]
     },
