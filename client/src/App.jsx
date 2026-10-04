@@ -293,7 +293,7 @@ export default function App() {
           </Reveal>
         </Section>
 
-        <Section id="contact" title="Get in touch">
+        <Section id="contact" title="Contact Info">
           <Reveal>
             <p className="max-w-prose text-lg text-muted">I'm currently open to full-time roles, internships, and opportunities to collaborate. Feel free to reach out to me via email or LinkedIn.</p>
             <div className="mt-6 flex flex-wrap items-center gap-4">
