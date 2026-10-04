@@ -32,8 +32,14 @@ app.get('/api/resume', (req, res) => {
 
 app.get('/api/health', (req, res) => res.json({ ok: true }))
 
-app.use(express.static(dist))
-app.use((req, res) => res.sendFile(path.join(dist, 'index.html')))
+// index.html is served with the site's own address filled into the link-preview tags (WhatsApp, LinkedIn etc. need absolute URLs).
+app.set('trust proxy', 1)
+app.use(express.static(dist, { index: false }))
+app.use((req, res) => {
+  const site = `${req.protocol}://${req.get('host')}`
+  const html = fs.readFileSync(path.join(dist, 'index.html'), 'utf8').replaceAll('%SITE_URL%', site)
+  res.type('html').send(html)
+})
 
 const port = process.env.PORT || 5000
 app.listen(port, () => console.log(`Portfolio running on port ${port}`))
