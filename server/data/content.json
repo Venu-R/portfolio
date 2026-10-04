@@ -1,0 +1,65 @@
+{
+  "name": "Venu R",
+  "role": "Information Science Engineering student",
+  "tagline": "I build full-stack web applications and security-focused machine learning systems.",
+  "location": "Bengaluru, India",
+  "email": "rvenu730@gmail.com",
+  "github": "https://github.com/Venu-R",
+  "linkedin": "https://www.linkedin.com/in/venu-r-9a407826a",
+  "about": [
+    "I'm a third-year Information Science student at Sir M Visvesvaraya Institute of Technology, Bengaluru. My work sits between full-stack development, cybersecurity and machine learning.",
+    "I like building complete systems end to end, from the API and database to the dashboard people actually use, and deploying them. I'm currently looking for internship opportunities."
+  ],
+  "skills": [
+    { "group": "Languages", "items": ["Java", "C", "JavaScript", "Python", "SQL"] },
+    { "group": "Web", "items": ["React", "Node.js", "Express.js", "FastAPI", "Flask", "Tailwind CSS", "HTML", "CSS"] },
+    { "group": "Machine learning", "items": ["PyTorch", "Transformers", "scikit-learn", "Pandas", "NumPy"] },
+    { "group": "Databases and tools", "items": ["MySQL", "PostgreSQL", "MongoDB", "Git", "Docker", "Kali Linux", "Wireshark", "Nmap"] },
+    { "group": "Computer science", "items": ["DSA", "OOP", "DBMS", "Operating Systems", "Computer Networks", "Multithreading", "REST APIs"] }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "AttentionPay",
+      "subtitle": "Payment fraud and phishing detection",
+      "description": "A two-stage payment security platform. A BERT model screens URLs for phishing, then backend checks for API route tampering and impossible travel run before a TabTransformer scores the transaction. SHAP and LIME explanations are shown on a React dashboard.",
+      "tags": ["FastAPI", "React", "PostgreSQL", "PyTorch", "BERT", "TabTransformer"],
+      "github": "https://github.com/Venu-R/AttentionPay",
+      "live": "https://attention-pay.vercel.app"
+    },
+    {
+      "title": "Enterprise Task and Workflow Management",
+      "subtitle": "Team collaboration platform",
+      "description": "A MERN platform where Admins, Managers and Employees get separate permissions and views through JWT authentication and role-based access control. Socket.IO delivers real-time task notifications and live dashboard updates.",
+      "tags": ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Docker", "Azure"],
+      "github": "https://github.com/Venu-R/etwms",
+      "live": "https://etwms.vercel.app"
+    },
+    {
+      "title": "RiskLens",
+      "subtitle": "AI-powered risk assessment",
+      "description": "Predicts delivery risk for software teams from GitHub, Jira, CI/CD and Slack signals. A Silent Failure Risk Index feeds a React dashboard with risk scores, heatmaps and mitigation suggestions, with Slack alerts past a set threshold.",
+      "tags": ["Flask", "React", "scikit-learn", "MySQL", "Docker"],
+      "github": "https://github.com/Venu-R/RiskLens"
+    },
+    {
+      "title": "IoT Cyber Threat Detection",
+      "subtitle": "Network anomaly detection",
+      "description": "A four-node ESP32 monitoring system. DoS, spoofing, burst and replay attacks were simulated to build over 1,000 labelled traffic records, used to train a scikit-learn model that flags abnormal activity on a Flask dashboard.",
+      "tags": ["ESP32", "Flask", "scikit-learn", "Wireshark", "Nmap", "Kali Linux"],
+      "github": "https://github.com/Venu-R/Cognitive-Cyber-threat-detection"
+    }
+  ],
+  "education": [
+    {
+      "school": "Sir M Visvesvaraya Institute of Technology",
+      "degree": "B.E. in Information Science",
+      "period": "Sept 2023 to Jul 2027",
+      "detail": "CGPA 8.61"
+    }
+  ],
+  "certifications": [
+    { "title": "Cybersecurity and Privacy", "issuer": "NPTEL", "year": "2024" },
+    { "title": "Cryptography and Network Security", "issuer": "NPTEL", "year": "2025" }
+  ]
+}
